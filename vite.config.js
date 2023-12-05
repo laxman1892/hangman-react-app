@@ -4,5 +4,6 @@ import { nodePolyfills } from 'vite-plugin-node-polyfills'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base : '/hangman-react-app/',
   plugins: [react(), nodePolyfills()],
 })
